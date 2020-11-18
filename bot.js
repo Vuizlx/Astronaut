@@ -6,7 +6,7 @@ const map = new Map();
 
 
 var firebaseConfig = {
-    apiKey: "AIzaSyD0MmpbuZkL9r3dGGdvCFHDJtk_641vGQ4",
+    apiKey: "AIzaSyCbKQ8BNeQkG9HpdpTOf2IfjxHyoQOI6PA",
     authDomain: "fir-bot-discord.firebaseapp.com",
     databaseURL: "https://fir-bot-discord.firebaseio.com",
     projectId: "fir-bot-discord",
@@ -16,7 +16,7 @@ var firebaseConfig = {
 };
 firebase.initializeApp(firebaseConfig);
 const database = firebase.database();
-let TOKEN = "NjE3NDA4NDE4NjAwNDUyMTA5.XXPqkQ.Y-xaev35ERBk-BM0QVzIAK70G5g";
+let TOKEN = "Nzc4NzUzODU2MzIyMDExMjE3.X7WlCw.LTZwkzNeaJvLlWA8hWJBvmmLaW8";
 client.on("ready", () => {
     console.log('Decolando !!')
 const activity = [
